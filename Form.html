@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> Form </title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="C:/Users/dell/jquery-3.2.1.min.js"></script>
+<script src="C:/Users/dell/jquery-validation-1.16.0/dist/jquery.validate.js"></script>
+<!-- <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script> -->
+<script type="text/javascript" src="proj.js"></script>
+
+</head>
+<body>
+
+<h1>Form</h1>
+
+	<div class="container">
+		<div id="signup"> 
+			Sign Up 
+		</div>
+		<div id="signin"> 
+			Sign In 
+		</div>
+	</div>
+
+	<div id="main">
+		<div> 
+			<form id="registerform">
+			Username <br>
+			<input type="text" name="uname" id="uname" placeholder="Username"> <br>
+			Contact Number <br>
+			<input type="text" name="contact" id="contact" placeholder="Contact Number"> <br>
+			Email <br>
+			<input type="text" name="email" id="email" placeholder="Email"> <br>
+			Password <br>
+			<input type="password" name="pwd" id="pwd" placeholder="Password"> <br>
+			Retype Password <br>
+			<input type="password" name="rpwd" id="rpwd" placeholder="Retype Password"> <br>
+			<div id="policy"><input type="checkbox" name="agree" id="agree">&nbsp; Accept the terms and policies</div> <br> 
+			<input type="submit" name="register" id="register" value="SIGN UP"><br> <br>
+			<hr>
+			<center><h5> Already have an account? </h5></center>
+			<center><input type="submit" name="signinbutton" id="signinbutton" value="SIGN IN"></center>
+			</form>
+		</div>
+	</div>
+
+	<div id="main2">
+		<div> 
+			<form id="login">
+			Email or Contact Number <br>
+			<input type="text" name="emailno" id="emailno" placeholder="Email or Contact Number"> <br>
+			Password <br>
+			<input type="password" name="pwrd" id="pwrd" placeholder="Password"> <br> <br>
+			<input type="submit" name="submit" id="submit" value="SIGN IN"><br> <br>
+			<hr>
+			<center>
+				<a href="#"> Forgot password? </a> 
+			</center>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
